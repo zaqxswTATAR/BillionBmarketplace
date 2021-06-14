@@ -1,0 +1,181 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+* {box-sizing: border-box;}
+
+button[type=submit] {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  /* background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  opacity: 0.8;
+  position: ;
+  bottom: 23px;
+  right: 28px;
+  width: 280px; */
+  cursor: pointer;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 150px; /* Location of the box */
+  padding-left: 28%;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  display: none;
+  border: 3px solid #f1f1f1;
+  transition: 0.5s;
+}
+
+/* Add styles to the form container */
+.popup_login {
+    width: 380px !important;
+}
+
+/* Full-width input fields */
+.popup_login input[type=text], .popup_login input[type=password] {
+  text-align: center;
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0 22px 30px;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+  background-color: #D1FBD2;
+  box-shadow: 1px 3px 1px #888880;
+}
+
+/* When the inputs get focus, do something */
+.popup_login input[type=text]:focus, .popup_login input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  background-color: #D1FBD2;
+}
+
+/* Set a style for the submit/login button */
+.popup_login .btn {
+  background-color: #9AF099;
+  color: black;
+  padding: 18px 22px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  width: 35%;
+  padding: 10px;
+  margin-left: 116px;
+  margin-top: 20px;
+  box-shadow: 1px 3px 1px #888880;
+  padding-bottom: 10px;
+}
+
+/* Add a red background color to the cancel button */
+.popup_login .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.popup_login .btn:hover, .open-button:hover {
+  opacity: 1;
+}  
+
+.popup_dis{
+    display: flex;
+    width: 800px;
+    height: 620px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.popup_banner {
+    max-width: 390px;
+}
+
+.banner_img {
+    width: 380px;
+    height: 560px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.login_txt {
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.remember {
+    margin-left: 30px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.or {
+    margin-top: 20px;
+    margin-left: 170px;
+    opacity: 0.6;
+}
+
+.btn_fb {
+  background-color: #3B5998;
+  color: white;
+  padding: 18px 22px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-left: 70px;
+  margin-top: 20px;
+  box-shadow: 1px 3px 1px #888880;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.btn_gg {
+  background-color: white;
+  color: black;
+  padding: 18px 22px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-left: 70px;
+  margin-top: 20px;
+  box-shadow: 1px 3px 1px #888880;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.remem_n_pw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.forgot_pw{
+    margin-right: 50px;
+    text-decoration: underline;
+}
+
+.register {
+    margin-top: 25px;
+    text-align: center;
+}
+
